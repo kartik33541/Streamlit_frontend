@@ -4,7 +4,7 @@ import json
 import re
 import os
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL")
 
 # Page setup - Dark theme styling injected below
 st.set_page_config(page_title="Payoff Analyzer Chat", layout="wide", page_icon="💼")
